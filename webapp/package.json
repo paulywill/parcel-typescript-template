@@ -10,7 +10,8 @@
     "lint": "run-s lint:code",
     "lint:code": "eslint --ext ts,tsx src",
     "start": "parcel public/index.html --open",
-    "test": "jest"
+    "test": "jest",
+    "test:cov": "jest --coverage && open coverage/lcov-report/index.html"
   },
   "keywords": [],
   "author": "",
